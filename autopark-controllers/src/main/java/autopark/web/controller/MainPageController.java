@@ -7,6 +7,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class MainPageController {
     @RequestMapping(value = "/")
+
+
+
     public String handle(ModelMap modelMap) {
         modelMap.put("author","It park.");
         return "main.jsp";
