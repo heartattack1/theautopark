@@ -13,11 +13,11 @@
     <dependencies>
     </dependencies>
 
-
     <modules>
         <module>../autopark-controllers</module>
         <module>../autopark-app</module>
         <module>../autopark-domain</module>
+
     </modules>
 
     <properties>
