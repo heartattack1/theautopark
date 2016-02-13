@@ -20,84 +20,65 @@
 
 
      <dependencies>
-        <dependency>
-            <groupId>commons-lang</groupId>
-            <artifactId>commons-lang</artifactId>
-            <version>${commons.lang.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>javax.servlet</groupId>
-            <artifactId>servlet-api</artifactId>
-            <version>${servlet.api.version}</version>
-            <scope>provided</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-aop</artifactId>
-            <version>${spring.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-context</artifactId>
-            <version>${spring.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-context-support</artifactId>
-            <version>${spring.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-oxm</artifactId>
-            <version>${spring.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-webmvc</artifactId>
-            <version>${spring.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-jdbc</artifactId>
-            <version>${spring.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-expression</artifactId>
-            <version>${spring.version}</version>
-        </dependency>
-        <!--Spring security -->
-        <dependency>
-            <groupId>org.springframework.security</groupId>
-            <artifactId>spring-security-core</artifactId>
-            <version>${spring.security.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.security</groupId>
-            <artifactId>spring-security-web</artifactId>
-            <version>${spring.security.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.security</groupId>
-            <artifactId>spring-security-config</artifactId>
-            <version>${spring.security.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.security</groupId>
-            <artifactId>spring-security-openid</artifactId>
-            <version>${spring.security.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.security</groupId>
-            <artifactId>spring-security-taglibs</artifactId>
-            <version>${spring.security.version}</version>
-        </dependency>
+         <dependency>
+             <groupId>commons-lang</groupId>
+             <artifactId>commons-lang</artifactId>
+             <version>${commons.lang.version}</version>
+         </dependency>
+         <dependency>
+             <groupId>commons-io</groupId>
+             <artifactId>commons-io</artifactId>
+             <version>${commons.io.version}</version>
+         </dependency>
 
-        <dependency>
-            <groupId>org.codehaus.jackson</groupId>
-            <artifactId>jackson-mapper-asl</artifactId>
-            <version>${jackson.version}</version>
-        </dependency>
+         <!--Spring framework -->
+
+         <dependency>
+             <groupId>org.springframework</groupId>
+             <artifactId>spring-beans</artifactId>
+             <version>${spring.version}</version>
+         </dependency>
+
+
+
+         <dependency>
+             <groupId>org.springframework</groupId>
+             <artifactId>spring-core</artifactId>
+             <version>${spring.version}</version>
+         </dependency>
+
+
+
+         <dependency>
+             <groupId>org.springframework</groupId>
+             <artifactId>spring-orm</artifactId>
+             <version>${spring.version}</version>
+         </dependency>
+
+
+         <dependency>
+             <groupId>org.hibernate.javax.persistence</groupId>
+             <artifactId>hibernate-jpa-2.1-api</artifactId>
+             <version>${hibernate.jpa.version}</version>
+         </dependency>
+
+         <dependency>
+             <groupId>org.hibernate</groupId>
+             <artifactId>hibernate-annotations</artifactId>
+             <version>${hibernate.annotations.version}</version>
+         </dependency>
+
+         <dependency>
+             <groupId>org.springframework.security</groupId>
+             <artifactId>spring-security-core</artifactId>
+             <version>${spring.security.version}</version>
+         </dependency>
+
+         <dependency>
+             <groupId>org.codehaus.jackson</groupId>
+             <artifactId>jackson-mapper-asl</artifactId>
+             <version>${jackson.version}</version>
+         </dependency>
 
 
     </dependencies>

@@ -17,6 +17,9 @@
         <module>../autopark-controllers</module>
         <module>../autopark-app</module>
         <module>../autopark-domain</module>
+        <module>../autopark-repository</module>
+        <module>../autopark-service</module>
+        <module>../autopark-database</module>
 
     </modules>
 
@@ -71,9 +74,6 @@
           <id>my-local-repo</id>
           <url>file://${basedir}/../autopark-lib/lib</url>
         </repository>
-
-
-
 
         <repository>
             <id>springsource maven repo</id>
