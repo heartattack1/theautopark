@@ -3,7 +3,7 @@ package autopark.domain;
 /**
  * 08.02.2016.
  */
-public enum annTypeEnum {
+public enum AnnTypeEnum {
     NEWS,
     SALE,
     PURCHASE,
